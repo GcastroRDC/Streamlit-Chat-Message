@@ -11,8 +11,6 @@ PASTA_USUARIOS = Path(__file__).parent / 'usuarios'
 PASTA_USUARIOS.mkdir(exist_ok=True)
 
 
-
-
 def le_mensagens_armazenadas(usuario,conversando_com):
 
     nome_arquivo = nome_arquivo_armazenado(usuario,conversando_com)
@@ -28,8 +26,6 @@ def le_mensagens_armazenadas(usuario,conversando_com):
         return []
 
         
-    
-
 def armazena_mensagens(usuario,conversando_com,mensagens):
 
     nome_arquivo = nome_arquivo_armazenado(usuario,conversando_com)
